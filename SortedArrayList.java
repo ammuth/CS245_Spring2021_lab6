@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-//https://gist.github.com/stevenstevenson/5404434
+
 public class SortedArrayList<T extends Comparable<T>> implements SortedList<T> {
 
 	//ArrayList j;
