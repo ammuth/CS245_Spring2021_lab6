@@ -1,6 +1,6 @@
 
 public class SortedLinkedList <T extends Comparable <T>> implements SortedList<T> {
-    //public T[] sortedLinked;
+
     public int size=0;
     Node head = null;
 
@@ -10,9 +10,6 @@ public class SortedLinkedList <T extends Comparable <T>> implements SortedList<T
         return size;
     }
 
-    //public SortedLinkedList() {
-    //    firstNode = null;
-    //}
 
 
 

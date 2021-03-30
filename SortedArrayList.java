@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class SortedArrayList<T extends Comparable<T>> implements SortedList<T> {
 
-	//ArrayList j;
+
 	public T[] sortedAL;
 	private int size;
 
@@ -13,8 +13,7 @@ public class SortedArrayList<T extends Comparable<T>> implements SortedList<T> {
 		this.size = 0;
 		sortedAL = (T[]) new Comparable[this.size + 1];
 
-		//a = (T[]) new Object[16];
-		//size = 0;
+
 
 	}
 
